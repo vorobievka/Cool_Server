@@ -9,6 +9,13 @@ import java.net.Socket;
 public class Client {
     public static void main(String[] args) {
 
+        clientSend();
+
+    }
+
+
+    public static void clientSend() {
+
         String host = "netology.homework";
         int port = 8081;
 
